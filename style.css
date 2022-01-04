@@ -9,9 +9,13 @@ h1{
     color: orange;
 }
 .box{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+    
 }
 
 .half-width{
@@ -30,4 +34,9 @@ h1{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+.second-box{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
